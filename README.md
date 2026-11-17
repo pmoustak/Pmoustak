@@ -11,11 +11,11 @@
 
 ### 🐉 `PERIKLIS.EXE` — Digital Transformation & Software ⚡
 
-`[ 🟠 DISCOVER ] → [ 🐉 DESIGN ] → [ ⚡ AUTOMATE ] → [ ⭐ DELIVER ]`
+`[ 📡 SCAN ] → [ ☁️ DISCOVER ] → [ ⚡ BUILD ] → [ ⭐ SHIP ]`
 
 </div>
 
-## 🐉 `01 // ABOUT`
+## ☁️ `01 // ABOUT`
 
 I’m a digital transformation junior focused on turning operational needs into software projects. I discover workflows, shape requirements, bring stakeholders together, and guide AI-assisted prototypes toward practical tools.
 
@@ -37,13 +37,13 @@ Claude is part of my development workflow. My contribution centers on problem di
 
 ## 🟠 `03 // PROJECTS`
 
-### 🛰️ Operations Dashboard · Internal
+### 📡 Operations Dashboard · Internal
 
 A publisher-specific dashboard for recurring operations, data, alerts, and tasks.
 
 ![React](https://img.shields.io/badge/React-6F8F72?style=flat-square&logo=react&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-557A72?style=flat-square&logo=typescript&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-4F7658?style=flat-square&logo=fastapi&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-BB7047?style=flat-square) ![Playwright](https://img.shields.io/badge/Playwright-6B874F?style=flat-square&logo=playwright&logoColor=white)
 
-### 🟠 AI-Assisted Translation · Internal · In progress
+### ☁️ AI-Assisted Translation · Internal · In progress
 
 Workflow tooling for AI-assisted translation, with human editorial review and approval evidence.
 
