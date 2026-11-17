@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="430" height="120" viewBox="0 0 430 120" role="img" aria-labelledby="title desc">
-  <title id="title">M.PERI — cozy Dragon Ball graffiti</title>
-  <desc id="desc">A warm graffiti wordmark with the original four-star Dragon Ball cursor artwork glowing beside it.</desc>
+  <title id="title">M.PERI — cozy marker graffiti</title>
+  <desc id="desc">A loose, bold marker-lettered wordmark with the original glowing four-star Dragon Ball cursor artwork.</desc>
   <defs>
-    <filter id="glow" x="-40%" y="-60%" width="180%" height="220%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feFlood flood-color="#e59642" flood-opacity=".72"/>
+    <filter id="glow" x="-30%" y="-60%" width="170%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#d89445" flood-opacity=".62"/>
       <feComposite in2="blur" operator="in"/>
       <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
@@ -13,19 +13,31 @@
     </filter>
   </defs>
 
-  <!-- Cozy moss and rust paint strokes -->
-  <path d="M34 93c50 12 147 14 244 0" fill="none" stroke="#75825a" stroke-width="4" stroke-linecap="round"/>
-  <path d="M47 27c20-8 39-10 55-8M237 20l17-7" fill="none" stroke="#bc7440" stroke-width="3" stroke-linecap="round"/>
+  <!-- Soft moss and rust marker accents -->
+  <path d="M35 94c50 12 146 14 244 0" fill="none" stroke="#75825a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M43 25c18-7 34-8 48-6M238 22l16-8" fill="none" stroke="#bc7440" stroke-width="3" stroke-linecap="round"/>
   <circle cx="29" cy="43" r="2.5" fill="#bc7440"/>
   <circle cx="263" cy="35" r="2" fill="#75825a"/>
   <circle cx="245" cy="101" r="2.5" fill="#bc7440"/>
-  <path d="M77 96v7m8-6v4m145-7v6" stroke="#bc7440" stroke-width="2" stroke-linecap="round"/>
 
-  <!-- Slightly tilted, outlined graffiti wordmark -->
-  <g transform="rotate(-3 151 61)">
-    <text x="155" y="73" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="51" font-weight="900" font-style="italic" letter-spacing="1" fill="#60704d" stroke="#493526" stroke-width="7" stroke-linejoin="round" paint-order="stroke">M.PERI</text>
-    <text x="151" y="68" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="51" font-weight="900" font-style="italic" letter-spacing="1" fill="#f4d99c" stroke="#493526" stroke-width="5" stroke-linejoin="round" paint-order="stroke" filter="url(#glow)">M.PERI</text>
-    <path d="M40 80c54 8 139 8 222-1" fill="none" stroke="#d58a45" stroke-width="3" stroke-linecap="round"/>
+  <!-- Loose marker lettering: warm shadow underneath, dark ink on top -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(2 4)" stroke="#75825a" stroke-width="13" opacity=".88">
+      <path d="M36 72C32 57 31 42 31 29C43 29 55 40 64 50C72 39 80 30 87 27C90 42 92 58 94 73"/>
+      <circle cx="103" cy="72" r="4" fill="#75825a" stroke="none"/>
+      <path d="M116 72C112 56 113 40 116 28C129 22 143 27 144 38C145 49 132 54 118 50"/>
+      <path d="M153 31C146 39 146 59 153 69C164 71 171 66 176 60M150 50C157 51 164 49 169 46"/>
+      <path d="M183 70C180 54 181 39 184 28C198 23 211 28 210 40C209 48 198 52 185 50M189 52C198 56 205 63 212 71"/>
+      <path d="M226 32C231 30 236 30 241 32M234 39C231 50 232 62 235 71"/>
+    </g>
+    <g stroke="#29231f" stroke-width="10" filter="url(#glow)">
+      <path d="M36 72C32 57 31 42 31 29C43 29 55 40 64 50C72 39 80 30 87 27C90 42 92 58 94 73"/>
+      <circle cx="103" cy="72" r="4.5" fill="#29231f" stroke="none"/>
+      <path d="M116 72C112 56 113 40 116 28C129 22 143 27 144 38C145 49 132 54 118 50"/>
+      <path d="M153 31C146 39 146 59 153 69C164 71 171 66 176 60M150 50C157 51 164 49 169 46"/>
+      <path d="M183 70C180 54 181 39 184 28C198 23 211 28 210 40C209 48 198 52 185 50M189 52C198 56 205 63 212 71"/>
+      <path d="M226 32C231 30 236 30 241 32M234 39C231 50 232 62 235 71"/>
+    </g>
   </g>
 
   <!-- Soft halo behind the user's original four-star cursor art -->
