@@ -1,12 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="540" height="120" viewBox="0 0 540 120" role="img" aria-labelledby="title">
-  <title id="title">M.PERI</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="120" viewBox="0 0 430 120" role="img" aria-labelledby="title desc">
+  <title id="title">M.PERI — cozy Dragon Ball graffiti</title>
+  <desc id="desc">A warm, hand-drawn graffiti wordmark with a glowing four-star Dragon Ball.</desc>
   <defs>
-    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
+    <radialGradient id="ball" cx="32%" cy="27%">
+      <stop offset="0" stop-color="#ffe6a1"/>
+      <stop offset=".48" stop-color="#f4a743"/>
+      <stop offset="1" stop-color="#c76735"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-60%" width="180%" height="220%">
       <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feFlood flood-color="#d89445" flood-opacity=".65"/>
+      <feFlood flood-color="#e59642" flood-opacity=".72"/>
+      <feComposite in2="blur" operator="in"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softBallGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#f2a544" flood-opacity=".58"/>
       <feComposite in2="blur" operator="in"/>
       <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <text x="270" y="82" text-anchor="middle" font-family="Courier New, monospace" font-size="68" font-weight="700" letter-spacing="9" fill="#f4dda3" stroke="#4b3526" stroke-width="3" paint-order="stroke" filter="url(#glow)">M.PERI</text>
+
+  <!-- Loose moss and rust paint strokes -->
+  <path d="M36 93c48 12 144 14 241 0" fill="none" stroke="#75825a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M49 27c20-8 39-10 55-8M240 20l17-7" fill="none" stroke="#bc7440" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="28" cy="44" r="2.5" fill="#bc7440"/>
+  <circle cx="266" cy="35" r="2" fill="#75825a"/>
+  <circle cx="247" cy="101" r="2.5" fill="#bc7440"/>
+  <path d="M79 96v7m8-6v4m145-7v6" stroke="#bc7440" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Slightly tilted outlined wordmark -->
+  <g transform="rotate(-3 157 61)">
+    <text x="161" y="73" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="53" font-weight="900" font-style="italic" letter-spacing="1" fill="#60704d" stroke="#493526" stroke-width="7" stroke-linejoin="round" paint-order="stroke">M.PERI</text>
+    <text x="157" y="68" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="53" font-weight="900" font-style="italic" letter-spacing="1" fill="#f4d99c" stroke="#493526" stroke-width="5" stroke-linejoin="round" paint-order="stroke" filter="url(#glow)">M.PERI</text>
+    <path d="M46 80c53 8 137 8 221-1" fill="none" stroke="#d58a45" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Four-star Dragon Ball -->
+  <g filter="url(#softBallGlow)">
+    <circle cx="355" cy="60" r="46" fill="url(#ball)" stroke="#493526" stroke-width="5"/>
+    <circle cx="355" cy="60" r="40" fill="none" stroke="#ffe3a0" stroke-opacity=".55" stroke-width="1.5"/>
+    <path d="M326 36c8-10 19-15 31-17" fill="none" stroke="#fff0c4" stroke-width="3.5" stroke-linecap="round" opacity=".8"/>
+    <g fill="#a94f34" stroke="#f7d489" stroke-width="1">
+      <path d="m341 36 2.7 6.4 7 .5-5.4 4.5 1.7 6.8-6-3.7-5.9 3.7 1.7-6.8-5.4-4.5 7-.5z"/>
+      <path d="m367 36 2.7 6.4 7 .5-5.4 4.5 1.7 6.8-6-3.7-5.9 3.7 1.7-6.8-5.4-4.5 7-.5z"/>
+      <path d="m341 62 2.7 6.4 7 .5-5.4 4.5 1.7 6.8-6-3.7-5.9 3.7 1.7-6.8-5.4-4.5 7-.5z"/>
+      <path d="m367 62 2.7 6.4 7 .5-5.4 4.5 1.7 6.8-6-3.7-5.9 3.7 1.7-6.8-5.4-4.5 7-.5z"/>
+    </g>
+  </g>
 </svg>
