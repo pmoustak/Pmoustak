@@ -1,6 +1,12 @@
 <div align="center">
 
-# `M.PERI`
+<p>
+  <img src="./assets/dragon-radar.png" width="64" alt="Dragon Radar cursor artwork" />
+  &nbsp;&nbsp;
+  <img src="./assets/m-peri-glow.svg" width="300" alt="M.PERI in a warm retro glow" />
+  &nbsp;&nbsp;
+  <img src="./assets/nimbus-cloud.png" width="64" alt="Nimbus cloud cursor artwork" />
+</p>
 
 ### Digital Transformation & Software
 
