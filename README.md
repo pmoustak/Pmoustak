@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="./assets/profile-banner.svg" alt="M.PERI Dragon Ball banner with Nimbus, Dragon Radar, and a four-star Dragon Ball" width="100%" />
+# `M.PERI`
 
-### 🐉 `PERIKLIS.EXE` — Digital Transformation & Software ⚡
+### Digital Transformation & Software
 
-`[ 📡 SCAN ] → [ ☁️ DISCOVER ] → [ ⚡ BUILD ] → [ ⭐ SHIP ]`
+`📡 SCAN → ☁️ DISCOVER → ⚡ BUILD → ⭐ SHIP`
 
 </div>
 
