@@ -1,13 +1,6 @@
 <div align="center">
 
-```text
-███╗   ███╗  ██████╗  ███████╗
-████╗ ████║  ██╔══██╗ ██╔════╝
-██╔████╔██║  ██████╔╝ █████╗
-██║╚██╔╝██║  ██╔═══╝  ██╔══╝
-██║ ╚═╝ ██║  ██║      ███████╗
-╚═╝     ╚═╝  ╚═╝      ╚══════╝
-```
+<img src="./assets/profile-banner.svg" alt="M.PERI Dragon Ball banner with Nimbus, Dragon Radar, and a four-star Dragon Ball" width="100%" />
 
 ### 🐉 `PERIKLIS.EXE` — Digital Transformation & Software ⚡
 
