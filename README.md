@@ -3,7 +3,7 @@
 <p>
   <img src="./assets/dragon-radar.png" width="64" alt="Dragon Radar cursor artwork" />
   &nbsp;&nbsp;
-  <img src="./assets/m-peri-glow.svg" width="300" alt="M.PERI in a warm retro glow" />
+  <img src="./assets/m-peri-glow.svg" width="360" alt="M.PERI in cozy graffiti style with a glowing four-star Dragon Ball" />
   &nbsp;&nbsp;
   <img src="./assets/nimbus-cloud.png" width="64" alt="Nimbus cloud cursor artwork" />
 </p>
