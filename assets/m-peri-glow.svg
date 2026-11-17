@@ -1,51 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="430" height="120" viewBox="0 0 430 120" role="img" aria-labelledby="title desc">
   <title id="title">M.PERI — cozy Dragon Ball graffiti</title>
-  <desc id="desc">A warm, hand-drawn graffiti wordmark with a glowing four-star Dragon Ball.</desc>
+  <desc id="desc">A warm graffiti wordmark with the original four-star Dragon Ball cursor artwork glowing beside it.</desc>
   <defs>
-    <radialGradient id="ball" cx="32%" cy="27%">
-      <stop offset="0" stop-color="#ffe6a1"/>
-      <stop offset=".48" stop-color="#f4a743"/>
-      <stop offset="1" stop-color="#c76735"/>
-    </radialGradient>
     <filter id="glow" x="-40%" y="-60%" width="180%" height="220%">
       <feGaussianBlur stdDeviation="5" result="blur"/>
       <feFlood flood-color="#e59642" flood-opacity=".72"/>
       <feComposite in2="blur" operator="in"/>
       <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="softBallGlow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feFlood flood-color="#f2a544" flood-opacity=".58"/>
-      <feComposite in2="blur" operator="in"/>
-      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="ballGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="9"/>
     </filter>
   </defs>
 
-  <!-- Loose moss and rust paint strokes -->
-  <path d="M36 93c48 12 144 14 241 0" fill="none" stroke="#75825a" stroke-width="4" stroke-linecap="round"/>
-  <path d="M49 27c20-8 39-10 55-8M240 20l17-7" fill="none" stroke="#bc7440" stroke-width="3" stroke-linecap="round"/>
-  <circle cx="28" cy="44" r="2.5" fill="#bc7440"/>
-  <circle cx="266" cy="35" r="2" fill="#75825a"/>
-  <circle cx="247" cy="101" r="2.5" fill="#bc7440"/>
-  <path d="M79 96v7m8-6v4m145-7v6" stroke="#bc7440" stroke-width="2" stroke-linecap="round"/>
+  <!-- Cozy moss and rust paint strokes -->
+  <path d="M34 93c50 12 147 14 244 0" fill="none" stroke="#75825a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M47 27c20-8 39-10 55-8M237 20l17-7" fill="none" stroke="#bc7440" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="29" cy="43" r="2.5" fill="#bc7440"/>
+  <circle cx="263" cy="35" r="2" fill="#75825a"/>
+  <circle cx="245" cy="101" r="2.5" fill="#bc7440"/>
+  <path d="M77 96v7m8-6v4m145-7v6" stroke="#bc7440" stroke-width="2" stroke-linecap="round"/>
 
-  <!-- Slightly tilted outlined wordmark -->
-  <g transform="rotate(-3 157 61)">
-    <text x="161" y="73" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="53" font-weight="900" font-style="italic" letter-spacing="1" fill="#60704d" stroke="#493526" stroke-width="7" stroke-linejoin="round" paint-order="stroke">M.PERI</text>
-    <text x="157" y="68" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="53" font-weight="900" font-style="italic" letter-spacing="1" fill="#f4d99c" stroke="#493526" stroke-width="5" stroke-linejoin="round" paint-order="stroke" filter="url(#glow)">M.PERI</text>
-    <path d="M46 80c53 8 137 8 221-1" fill="none" stroke="#d58a45" stroke-width="3" stroke-linecap="round"/>
+  <!-- Slightly tilted, outlined graffiti wordmark -->
+  <g transform="rotate(-3 151 61)">
+    <text x="155" y="73" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="51" font-weight="900" font-style="italic" letter-spacing="1" fill="#60704d" stroke="#493526" stroke-width="7" stroke-linejoin="round" paint-order="stroke">M.PERI</text>
+    <text x="151" y="68" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="51" font-weight="900" font-style="italic" letter-spacing="1" fill="#f4d99c" stroke="#493526" stroke-width="5" stroke-linejoin="round" paint-order="stroke" filter="url(#glow)">M.PERI</text>
+    <path d="M40 80c54 8 139 8 222-1" fill="none" stroke="#d58a45" stroke-width="3" stroke-linecap="round"/>
   </g>
 
-  <!-- Four-star Dragon Ball -->
-  <g filter="url(#softBallGlow)">
-    <circle cx="355" cy="60" r="46" fill="url(#ball)" stroke="#493526" stroke-width="5"/>
-    <circle cx="355" cy="60" r="40" fill="none" stroke="#ffe3a0" stroke-opacity=".55" stroke-width="1.5"/>
-    <path d="M326 36c8-10 19-15 31-17" fill="none" stroke="#fff0c4" stroke-width="3.5" stroke-linecap="round" opacity=".8"/>
-    <g fill="#a94f34" stroke="#f7d489" stroke-width="1">
-      <path d="m341 36 2.7 6.4 7 .5-5.4 4.5 1.7 6.8-6-3.7-5.9 3.7 1.7-6.8-5.4-4.5 7-.5z"/>
-      <path d="m367 36 2.7 6.4 7 .5-5.4 4.5 1.7 6.8-6-3.7-5.9 3.7 1.7-6.8-5.4-4.5 7-.5z"/>
-      <path d="m341 62 2.7 6.4 7 .5-5.4 4.5 1.7 6.8-6-3.7-5.9 3.7 1.7-6.8-5.4-4.5 7-.5z"/>
-      <path d="m367 62 2.7 6.4 7 .5-5.4 4.5 1.7 6.8-6-3.7-5.9 3.7 1.7-6.8-5.4-4.5 7-.5z"/>
-    </g>
-  </g>
+  <!-- Soft halo behind the user's original four-star cursor art -->
+  <circle cx="356" cy="60" r="43" fill="#f2a64a" opacity=".55" filter="url(#ballGlow)"/>
+  <image x="311" y="15" width="90" height="90" href="data:image/png;base64,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" preserveAspectRatio="xMidYMid meet"/>
 </svg>
